@@ -39,4 +39,5 @@ contract Whitelist {
 
 
 //my deployed contract address   0xe5C26319899CBca256c059e24f016f57678a8BED
-//we will use etherscan for interface since this is a simple contract
+//we will use etherscan for interface since this is a simple contract, to do this, get the api key from etherscan for verifiction
+//though we will use sepolia 
