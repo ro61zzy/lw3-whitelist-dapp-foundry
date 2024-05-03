@@ -58,3 +58,7 @@ contract CryptoDevs is ERC721Enumerable, Ownable {
         require(sent, "Failed to send Ether");
     }
 }
+
+//to deploy
+//forge create --rpc-url https://eth-sepolia.g.alchemy.com/v2/rKaE3I9QVw80qO3Jb9h_NadQIqwuls0A --private-key $PRIVATE_KEY --constructor-args 0xe5C26319899CBca256c059e24f016f57678a8BED --etherscan-api-key $ETHERSCAN_API_KEY --verify src/CryptoDevs.sol:CryptoDevs
+//deployed contract address 0x119e2DB4b6cA8466B3AbA3291312A6B866829b40
